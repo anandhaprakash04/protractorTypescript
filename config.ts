@@ -3,7 +3,7 @@ import {Config} from 'protractor';
 exports.config = {
   //  seleniumAddress: 'http://localhost:4444/wd/hub',
     directConnect: true,
-    specs: ['Practice13_Protractor_Synchronization.js'],
+    specs: ['testspec1.js'],
     capabilities: {
           'browserName': 'chrome'
         },
